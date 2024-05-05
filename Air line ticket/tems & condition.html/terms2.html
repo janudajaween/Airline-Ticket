@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="thems.css">
+    <style>
+    *{
+        box-sizing: border-box;
+    }
+    
+    body{
+        /* background-image: url('../src/pexels-pixabay-104826.jpg'); */
+        background-color: antiquewhite;
+        border-image-source: url(border.png);
+        border-image-width: 10px;
+        background-size: 1500px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    body h1{
+        font-size: 50px;
+        text-shadow: 2px 2px 5px black;
+    }
+
+    #main-container{
+        
+        width: 100%;
+
+    }
+    
+    #container-box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        gap:10px;
+        margin-top: -6%;
+    }
+
+    .box{
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #container-box #left-box{
+        width: 380px; 
+        height: 550px;
+        background-size: cover;
+        border-radius: 10px;
+        
+    }
+    #container-box #left-box img{
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+        border-radius: 10px;
+    }
+
+    #container-box #right-box{
+         border:none;
+        width: 490px; 
+        height: 550px;
+        color: rgb(0, 0, 0);   
+        background-color: rgba(0, 0, 0, 0.4);
+        -webkit-backdrop-filter: blur(1px);
+        backdrop-filter: blur(6px);
+        padding: 20px;
+        text-align: justify;
+        font-weight: 800;
+        border-radius: 10px;
+
+    }
+    </style>
+</head>
+<body>
+    <h1>Terms and Conditions</h1>
+    <section id="main-container">
+        
+        <div id="container-box">
+            <div id="left-box" class="box">
+                <img src="../src/istockphoto-183290492-170667a.jpg">
+            </div>
+            <div id="right-box" class="box">
+                1. Please note that all airline ticket reservations are subject to availability and fare conditions.<br><br>
+                2. To secure your reservation, full payment must be made within 24 hours of booking.<br><br>
+                3. Changes to your reservation may incur fees depending on the fare type and availability.<br><br>
+                4. Cancellation of your reservation may result in penalties, please refer to the terms and conditions.<br><br>
+                5. Passengers are responsible for ensuring they have the necessary travel documents for their reservation.<br><br>
+                6. Please check-in at least two hours prior to your flight departure time for domestic flights, and three hours for international flights.<br><br>
+                7. Baggage allowance for your reservation varies depending on the fare type and destination, please check your booking details.<br><br>
+                8. Certain restrictions may apply to your reservation, including minimum stay requirements and blackout dates.<br><br>
+                9. Seat selection for your reservation is subject to availability and may be limited.<br><br>
+                10.Please review the fare rules and conditions associated with your reservation before confirming your booking.
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
